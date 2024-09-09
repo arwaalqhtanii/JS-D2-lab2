@@ -128,17 +128,17 @@ console.log("4-4 =", minus(2,2))
 function multi(num1,num2){
     return num1 * num2
 }
-console.log("2*2 =", multi(2,2))
+console.log("7*6 =", multi(2,2))
 
 // /
 
 function devide(num1,num2){
     return num1 / num2
 }
-console.log("2/2 =", devide(2,2))
+console.log("6/2 =", devide(2,2))
 
 // %
 function mod(num1,num2){
     return num1 % num2
 }
-console.log("2%2 =", mod(2,2))
+console.log("12%6 =", mod(2,2))
