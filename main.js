@@ -106,3 +106,39 @@ for (let i = 0; i < words.length; i++) {
 if (!found) {
     console.log(' the item is not found ');
 }
+
+
+
+///update funcions
+//+
+function plus(num1,num2){
+    return num1 + num2
+}
+console.log("4+4 =", plus(4,4))
+
+
+//-
+function minus(num1,num2){
+    return num1 - num2
+}
+console.log("4-4 =", minus(2,2))
+
+// *
+
+function multi(num1,num2){
+    return num1 * num2
+}
+console.log("2*2 =", multi(2,2))
+
+// /
+
+function devide(num1,num2){
+    return num1 / num2
+}
+console.log("2/2 =", devide(2,2))
+
+// %
+function mod(num1,num2){
+    return num1 % num2
+}
+console.log("2%2 =", mod(2,2))
